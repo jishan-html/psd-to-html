@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+section {
+    padding: 2rem 0;
+}
+h1, h2 {
+    font-family: 'Alfa Slab One', cursive;
+    color: #42200B;
+}
+h3, h4, h5 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #42200B;
+
+}
+/*============== header section start ==============*/
+#header {
+    background: url(../img/banner.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    -webkit-background-size: cover;
+    padding-bottom: 7%;
+}
+ul.navbar-nav.ms-auto.mb-2.mb-lg-0 li a {
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Bebas Neue';
+}
+.header-box1 p {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.2rem;
+    display: inline;
+    border: dotted;
+    padding: 0.5rem;
+    text-transform: uppercase;
+}
+.header-box1 h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    line-height: 3rem;
+}
+/*============== header section end ==============*/
+
+.burger-box {
+    background: url(../img/burger2.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+.burger-box h1,h2 {
+    font-family: 'Bebas Neue';
+    display: inline;
+    height: 9rem;
+}
+.burger-box h2 {
+    display: inline;
+}
+.top-box {
+    position: relative;
+}
+.top-box .text {
+    position: absolute;
+    top: 7%;
+    left: 3%;
+}
+
+
+
+
+
+.choose p {
+    color: #70462e;
+}

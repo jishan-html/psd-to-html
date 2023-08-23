@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Psd to html</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/5c0df669f3.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- =============headear section start============= -->
@@ -84,7 +86,7 @@
           
     <!-- =============headear section  end============= -->
 
-    <section>
+    <section id="choose">
       <div class="container">
         <div class="choose text-center">
           <h4 class="bg-warning p-2 d-inline-block">Always Tasty Burger</h4>
@@ -128,6 +130,135 @@
             </div>
           </div>
         </div>
+      </div>
+    </section>
+    <section id="upcoming">
+      <div class="container">
+        <div class="row upcoming-row p-3">
+          <div class="col-md-6">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/img/slider.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3 class="text-light">Discover</h3>
+                    <h1 class="text-light">Upcoming Events</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/slider.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3 class="text-light">Discover</h3>
+                    <h1>Upcoming Events</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum </p>
+                  </div>
+                </div>
+                <div class="carousel-item text-light">
+                  <img src="assets/img/slider.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3>Discover</h3>
+                    <h1>Upcoming Events</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum  </p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+          </div>
+          <div class="col-md-6">
+            <img src="assets/img/slider.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="form">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-2">
+            <img src="assets/img/Bottle.png" alt="" class="img-fluid">
+          </div>
+          <div class="col-md-8">
+            <div class="book text-center my-5">
+              <h3>Reservation</h3>
+              <h1>Book your table</h1>
+            </div>
+            <div class="form">
+              <div class="row">
+                <div class="col-md-6">
+                  <form action="#">
+                    <input type="email" class="form-control my-3 p-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+                    <input type="date" class="form-control my-3 p-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Date"> 
+                    <input type="text" class="form-control my-3 p-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="People">
+                  </form>
+                </div>
+                <div class="col-md-6">
+                  <input type="email" class="form-control my-3 p-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                  <input type="time" class="form-control my-3 p-2" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <input type="submit" class="form-control my-3 p-2 bg-danger text-light"  id="exampleInputEmail1" aria-describedby="emailHelp" value="FIND A TABLE">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 m-plate">
+            <img src="assets/img/plate.png" alt="" class="img-fluid plate-img">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer" class="pb-0">
+      <div class="container mt-5">
+        <div class="row justify-content-center align-items-center my-5">
+          <div class="col-md-6 pe-md-2">
+            <img src="assets/img/logo2.png" alt="" class="img-fluid mb-3">
+            <p class="text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem fugiat consequatur beatae illum, recusandae necessitatibus praesentium error illo. Deleniti, maiores ad quod doloremque assumenda totam repellendus facere natus excepturi nisi!</p>
+          </div>
+          <div class="col-md-6 text-light d-flex align-items-center justify-content-end ps-md-2">
+            <div>
+              <p class="fw-bold"><i class="fa-solid fa-location-dot pe-2 fs-4"></i>Main Road, Building Name, Country</p>
+              <p class="fw-bold"><i class="fa-regular fa-envelope pe-2 fs-4"></i>info@companyname.comy</p>
+            </div>
+          </div>
+        </div>
+        <footer>
+          <div class="row">
+            <div class="col-md-6">
+              <p class="text-light">© Company Name 2020. All rights reserved</p>
+            </div>
+            <div class="col-md-6">
+              <ul class="nav flex-row-reverse">
+                <li class="nav-item me-1">
+                  <a class="nav-link m-0 p-0"href="#"><i class="fa-brands fa-instagram bg-light rounded-circle p-2 text-dark"></i></a>
+                </li>
+                <li class="nav-item me-1">
+                  <a class="nav-link m-0 p-0" href="#"><i class="fa-brands fa-facebook bg-light rounded-circle p-2 text-dark"></i></a>
+                </li>
+                <li class="nav-item me-1">
+                  <a class="nav-link m-0 p-0" href="#"><i class="fa-brands fa-twitter bg-light rounded-circle p-2 text-dark"></i></a>
+                </li>
+                <li class="nav-item me-1">
+                  <a class="nav-link m-0 p-0" href="#"><i class="fa-brands fa-whatsapp bg-light rounded-circle p-2 text-dark"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </footer>
       </div>
     </section>
     

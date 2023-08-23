@@ -19,13 +19,20 @@ h3, h4, h5 {
     color: #42200B;
 
 }
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #fff;
+    outline: none;
+    box-shadow: 0 0 0 0.1rem #efecec;
+}
 /*============== header section start ==============*/
 #header {
     background: url(../img/banner.png) no-repeat;
     background-size: cover;
     background-position: center center;
     -webkit-background-size: cover;
-    padding-bottom: 7%;
+    padding: 0 0 10rem 0;
 }
 ul.navbar-nav.ms-auto.mb-2.mb-lg-0 li a {
     font-size: 1rem;
@@ -46,12 +53,11 @@ ul.navbar-nav.ms-auto.mb-2.mb-lg-0 li a {
     line-height: 3rem;
 }
 /*============== header section end ==============*/
-
+/*============== burger-type section start ==============*/
 .burger-box {
     background: url(../img/burger2.png) no-repeat;
     background-size: cover;
-    background-position: center center;
-    
+    background-position: center center;  
 }
 .burger-box h1,h2 {
     font-family: 'Bebas Neue';
@@ -69,11 +75,38 @@ ul.navbar-nav.ms-auto.mb-2.mb-lg-0 li a {
     top: 7%;
     left: 3%;
 }
-
-
-
-
-
-.choose p {
+/*============== burger-type section end ==============*/
+/*============== choose section start ==============*/
+.choose > p {
     color: #70462e;
 }
+/*============== choose section end ==============*/
+
+/*============== upcoming section start ==============*/
+.row.upcoming-row.p-3 {
+    box-shadow: 0px 6px 25px 6px;
+}
+/*============== upcoming section end ==============*/
+/*======= section form style =======*/
+.m-plate {
+    position: relativ;
+}
+.plate-img {
+  position: relative;
+  top: 8rem;
+}
+/*======= section form style =======*/
+
+
+#footer {
+    background: url(../img/footer.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+/*======= resposive start =======*/
+/* @media (min-width: 320px) and (max-width: 700px) {
+
+} */
+/*======= resposive end =======*/

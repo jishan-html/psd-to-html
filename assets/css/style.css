@@ -109,4 +109,9 @@ ul.navbar-nav.ms-auto.mb-2.mb-lg-0 li a {
 /* @media (min-width: 320px) and (max-width: 700px) {
 
 } */
+@media (min-width: 250px) and (max-width: 767px) {
+    .burger-box {
+        margin-bottom: 15px;
+    }
+} 
 /*======= resposive end =======*/
